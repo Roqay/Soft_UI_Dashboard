@@ -1,0 +1,116 @@
+.g-sidenav-hidden .main-logo {
+  display: none;
+}
+
+.g-sidenav-hidden .small-logo {
+  display: block !important;
+}
+
+.g-sidenav-hidden .navbar-vertical:hover .main-logo {
+  display: block;
+}
+
+.g-sidenav-hidden .navbar-vertical:hover .small-logo {
+  display: none !important;
+}
+
+.rtl [class*='me-'] {
+  margin-right: 0 !important;
+}
+
+.rtl .ms-1 {
+  margin-right: 0.25rem !important;
+}
+
+.rtl .ms-2 {
+  margin-right: 0.5rem !important;
+}
+
+.rtl .ms-3 {
+  margin-right: 1rem !important;
+}
+
+.rtl .ms-4 {
+  margin-right: 1.5rem !important;
+}
+
+.rtl .ms-5 {
+  margin-right: 3rem !important;
+}
+
+.rtl .ms-md-auto {
+  margin-left: 0 !important;
+}
+
+.rtl .me-md-auto {
+  margin-right: 0 !important;
+}
+
+.rtl .navbar-vertical {
+  margin-left: 0 !important;
+}
+
+.rtl .navbar-vertical.navbar-expand-xs.fixed-start {
+  right: 0;
+  left: auto;
+}
+
+.rtl .navbar-vertical.navbar-expand-xs.fixed-start ~ .main-content {
+  margin-right: 17.125rem;
+  margin-left: 0;
+}
+
+.rtl .navbar-vertical.navbar-expand-xs .navbar-nav .nav .nav-link {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.rtl .navbar-vertical .navbar-nav .nav-link[data-bs-toggle=collapse]:after {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.rtl.g-sidenav-hidden .navbar-vertical .nav-item .collapse .nav {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@media (min-width: 1200px) {
+  .rtl.g-sidenav-hidden .navbar-vertical .nav-item .collapse .nav .nav-item .nav-link {
+    margin-right: 1rem;
+  }
+}
+
+.rtl.g-sidenav-hidden .navbar-vertical .nav-item .collapse .nav .nav-item .nav-link .sidenav-mini-icon {
+  margin-left: 0;
+  margin-right: 0.15rem;
+}
+
+.rtl.g-sidenav-hidden .navbar-vertical:hover .nav-item .collapse .nav {
+  margin-inline: 1.5rem !important;
+  padding-inline: 1rem !important;
+}
+
+.rtl.g-sidenav-show.g-sidenav-pinned .navbar .sidenav-toggler-inner .sidenav-toggler-line:first-child, .rtl.g-sidenav-show.g-sidenav-pinned .navbar .sidenav-toggler-inner .sidenav-toggler-line:last-child {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+.rtl .navbar-main .navbar-nav .nav-item span {
+  padding-right: 0 !important;
+}
+
+.rtl .dropdown .dropdown-menu {
+  top: 0;
+}
+
+.rtl .dropdown .dropdown-menu.dropdown-menu-end {
+  left: 0 !important;
+  right: auto !important;
+}
+
+.rtl .dropdown .dropdown-menu.dropdown-menu-end:before {
+  left: 28px;
+  right: auto;
+}
+/*# sourceMappingURL=custom.css.map */

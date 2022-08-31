@@ -1,0 +1,15 @@
+.rtl{
+    .navbar-vertical.navbar-expand-xs.fixed-start {
+        right: 0;
+        left: auto;
+    }
+    .sidenav.fixed-start+.main-content{
+        @media (min-width: 1200px) {
+            margin-right: 17.125rem;
+            margin-left: 0 !important;
+        }
+        @media (max-width: 1199.98px) {
+            margin-right: 0;
+        }
+    }
+}
